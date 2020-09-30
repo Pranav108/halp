@@ -1,5 +1,5 @@
 {
-  "name": "halp",
+  "name": "mern",
   "version": "1.0.0",
   "description": "Mern Demo",
   "main": "server.js",
@@ -17,22 +17,24 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.1.0",
-    "nodemon": "^1.18.7"
+    "eslint-config-fullstack": "^6.0.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.2",
+    "nodemon": "^1.18.7",
+    "prettier": "^2.1.2"
   },
   "dependencies": {
     "bcrypt": "^5.0.0",
     "compression": "^1.7.4",
     "dotenv": "^8.2.0",
-    "eslint-config-fullstack": "^6.0.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.5",
     "express": "^4.16.3",
     "express-session": "^1.17.1",
     "if-env": "^1.0.4",
-    "mongoose": "^5.9.26",
+    "mongoose": "^5.10.7",
     "passport": "^0.4.1",
-    "passport-local": "^1.0.0",
-    "prettier": "^2.0.5"
+    "passport-local": "^1.0.0"
   }
 }
